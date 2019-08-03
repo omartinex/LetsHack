@@ -10,3 +10,7 @@ cd fbctf
 
 ./extra/provision.sh -m prod -s $PWD
 
+#Reset admin password
+cd fbctf
+source ./extra/lib.sh
+set_password [new_password] ctf ctf fbctf $PWD
