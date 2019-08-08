@@ -4,22 +4,22 @@
 **Write Up for [Infosec Institute n00bs CTF](http://ctf.infosecinstitute.com/index.php).**
 
 
- - [Infosec Institute CTF](#infosec-institute-ctf)
-   - [level 1](#level-1)
-   - [level 2](#level-2)
-   - [level 3](#level-3)
-   - [level 4](#level-4)
-   - [level 5](#level-5)
-   - [level 6](#level-6)
-   - [level 7](#level-7)
-   - [level 8](#level-8)
-   - [level 9](#level-9)
-   - [level 10](#level-10)
-   - [level 11](#level-11)
-   - [level 12](#level-12)
-   - [level 13](#level-13)
-   - [level 14](#level-14)
-   - [level 15](#level-15)
+ 
+- [level 1](#level-1)
+- [level 2](#level-2)
+- [level 3](#level-3)
+- [level 4](#level-4)
+- [level 5](#level-5)
+- [level 6](#level-6)
+- [level 7](#level-7)
+- [level 8](#level-8)
+- [level 9](#level-9)
+- [level 10](#level-10)
+- [level 11](#level-11)
+- [level 12](#level-12)
+- [level 13](#level-13)
+- [level 14](#level-14)
+- [level 15](#level-15)
 
 
 
@@ -55,7 +55,15 @@ echo "aW5mb3NlY19mbGFnaXNfd2VhcmVqdXN0c3RhcnRpbmc=" | base64 -d
 
 ## level 3
 
+Scanning the QR code you get a morse code
 
+```
+.. -. ..-. --- ... . -.-. ..-. .-.. .- --. .. ... -- --- .-. ... .. -. --.
+```
+
+Using a morse code tranlator you get the flag
+
+`INFOSECFLAGISMORSING`
 
 ## level 4
 
